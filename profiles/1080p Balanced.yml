@@ -25,6 +25,10 @@ custom_formats:
   score: 2100
 - name: MULTi Audio
   score: 950
+- name: Not Only English
+  score: 950
+- name: Not English
+  score: 950
 - name: VOSTFR
   score: 50
 - name: VOSTEN
