@@ -1,0 +1,7 @@
+name: VF2-VFI
+pattern: \b(VFI|VF2)\b
+description: ''
+tags:
+- radarr
+- sonarr
+tests: []
