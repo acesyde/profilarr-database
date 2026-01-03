@@ -21,26 +21,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 888888
 minScoreIncrement: 1
 custom_formats:
-- name: FR HD Light Tier
-  score: 2100
-- name: MULTi Audio
-  score: 950
-- name: Not Only English
-  score: 950
-- name: Not English
-  score: 950
-- name: VOSTFR
-  score: 50
-- name: VOSTEN
-  score: 5
-- name: VF2-VFI
-  score: 0
-- name: VFF (no VFQ)
-  score: 0
-- name: FR LQ
-  score: -10000
-- name: VFQ (No VFF)
-  score: -10000
 - name: 1080p WEB-DL
   score: 280000
 - name: 720p WEB-DL
@@ -202,24 +182,6 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: RADARR - FR Remux Tier 01
-  score: 3000
-- name: RADARR - FR Remux Tier 02
-  score: 2900
-- name: RADARR - FR UHD Bluray Tier 01
-  score: 2800
-- name: RADARR - FR UHD Bluray Tier 02
-  score: 2700
-- name: RADARR - FR HD Bluray Tier 01
-  score: 2600
-- name: RADARR - FR HD Bluray Tier 02
-  score: 2500
-- name: RADARR - FR WEB Tier 01
-  score: 2400
-- name: RADARR - FR WEB Tier 02
-  score: 2300
-- name: RADARR - FR Scene Teams
-  score: 2200
 - name: 1080p Balanced Tier 1
   score: 281000
 - name: 1080p Balanced Tier 2
@@ -247,26 +209,6 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: SONARR - FR Remux Tier 01
-  score: 2700
-- name: SONARR - FR HD Bluray Tier 01
-  score: 2600
-- name: SONARR - FR Anime Tier 01
-  score: 2500
-- name: SONARR - FR WEB Tier 01
-  score: 2500
-- name: SONARR - FR Anime Tier 02
-  score: 2400
-- name: SONARR - FR WEB Tier 02
-  score: 2400
-- name: SONARR - FR Anime Tier 03
-  score: 2300
-- name: SONARR - FR WEB Tier 03
-  score: 2300
-- name: SONARR - FR Anime FanSub
-  score: 2200
-- name: SONARR - FR Scene Groups
-  score: 2200
 - name: Season Pack
   score: 10
 - name: Remux (Source)
@@ -314,4 +256,4 @@ upgrade_until:
   description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
-language: any
+language: must_original
